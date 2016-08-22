@@ -584,10 +584,10 @@ a, a:visited {
 .jump-links {
 	border-left: 3px solid $secondary;
 	background: rgba(81, 172, 45, 0.1);
-	padding: 20px;
+	padding: 20px 20px 15px 20px;
 	p, ul, li {
 		display: inline-block;
-		margin: 0;
+		margin: 0 0 5px 0;
 	}
 	p, li {
 		margin-right: 20px;
