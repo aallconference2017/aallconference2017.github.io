@@ -1,11 +1,11 @@
 <div class="gradient-border"></div>
-{% assign navigation_pages = site.html_pages | sort: 'menu_position' %}
+{% assign navigation_pages = site.html_pages | sort: 'menu_position_number' %}
 {% if navigation_pages.size > 0 %}
 <nav class="main-nav">
 	<a class="mobile-menu-toggle" href="#">Menu</a>
 	<ul>
     {% for p in navigation_pages %}
-      {% if p.menu_position %}
+      {% if p.menu_position_number %}
         <li><a href="{{ p.url }}">{{ p.title }}</a></li>
       {% endif %}
     {% endfor %}
