@@ -171,6 +171,9 @@ a, a:visited {
 	text-decoration: none;
 	border-bottom: 1px dotted $primary;
 }
+figure {
+    margin: 1em 0;
+}
 
 .Home .content {
 	text-align: center;
@@ -625,6 +628,7 @@ a, a:visited {
 }
 
 .vid-wrapper {
+    margin
 	position: relative;
     padding-bottom: 56.25%;
     height: 0;
