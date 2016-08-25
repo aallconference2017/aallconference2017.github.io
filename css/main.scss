@@ -118,6 +118,11 @@ html {
 	}
 }
 
+/* flexible media */
+img, iframe {
+    max-eidth: 100%;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 }
