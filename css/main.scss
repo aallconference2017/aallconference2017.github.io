@@ -435,6 +435,13 @@ a, a:visited {
 		}
 	}
 }
+@media only screen and (min-width: 1280/16*1em) {
+	.home-ctas { 
+		.theme {
+			font-size: 64/16*1em;
+		}
+	}
+}
 .gradient-border {
 	height: 3px;
 	background: $primary;
