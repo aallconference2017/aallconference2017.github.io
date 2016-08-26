@@ -646,6 +646,7 @@ figure {
 	max-width: 1920px;
 	padding: 0 20px;
 	@media only screen and (min-width: 640/16*1em) {
+	    padding: 0;
 	    > div {
 			width: 30%;
 			margin: 1em 1.5%;
