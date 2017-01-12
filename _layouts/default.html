@@ -10,6 +10,20 @@
             <h1>{{ page.title }}</h1>
         </div>
     </div>
+    {% if page.show_jump_links %}
+    <div class="container">
+        <div class="content">
+            <nav class="jump-links">
+                <p>On this page:</p>
+                <ul>
+                    <li><a href="#travel">Travelling to Geelong</a></li>
+                    <li><a href="#venue">Venue</a></li>
+                    <li><a href="#accomodation">Accomodation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    {% endif %}
     {{ content }}
 </main>
 {% include footer.html %}

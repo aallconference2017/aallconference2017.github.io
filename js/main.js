@@ -29,9 +29,19 @@ $(document).ready(function(){
     });
     
     /*
-     * add id's to h2's for jumplinks
+     * generate jumplinks
      */
-    $( "h2" ).each(function( index ) {
-      $(this).attr("id","secton" + index);
+    $('h2').each(function(index) {
+        // add id's to h2's for jump links
+        $(this).attr('id','section' + index);
+        // if jump links nav is showing add jump link
+        if ($('.jump-links').length > 0) {
+            // get heading text
+            var headingTitle = $(this).text();
+            // create list item and link
+            var jumpLink = '<li><a href="#section' + index + '">' + headingTitle +'</a></li>';
+            // add list item to nav
+            $('.jump-links').append(jumpLink);
+        }
     });
 });
