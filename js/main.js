@@ -11,7 +11,7 @@ $(document).ready(function(){
 	/* 
 	 * smooth scroll
 	 */
-	$('a[href*="#"]:not([href="#"])').click(function() {
+	$( 'body' ).on( 'click', 'a[href*="#"]:not([href="#"])', function() {
         var scrollPosition;
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
             || location.hostname == this.hostname) {
