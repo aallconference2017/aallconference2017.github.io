@@ -228,6 +228,7 @@ figure {
 }
 .host-logo {
 	position: relative;
+    margin-bottom: 2em;
 	p {
 		display: block;
 		position: absolute;
@@ -567,10 +568,12 @@ figure {
 .site-footer {
 	background: #f7f7f7;
 	margin-top: 2em;
+    padding: 2em 0;
 	text-align: center;
 }
 .footnotes, .Home .footnotes {
 	margin: 2em 0 -2em 0;
+    padding: 2em 0;
 	background: #f1f1f1;
 	.content {
 		text-align: center;
