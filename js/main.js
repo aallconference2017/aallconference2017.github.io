@@ -27,4 +27,11 @@ $(document).ready(function(){
             }
         }
     });
+    
+    /*
+     * add id's to h2's for jumplinks
+     */
+    $( "h2" ).each(function( index ) {
+      $(this).attr("id","secton" + index);
+    });
 });
