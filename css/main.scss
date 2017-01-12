@@ -109,7 +109,7 @@ html {
 }
 .container {
 	max-width: 1140px;
-	padding: 2em 20px;
+	padding: 2em 20px 0 2em;
 	margin: 0 auto;
 	&::after {
 	  clear: both;
