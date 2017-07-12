@@ -522,7 +522,7 @@ figure {
 		height: 100%;
 		overflow: scroll;		
 		li {
-			font-size: 2em;
+			font-size: 1.6em;
 			margin-bottom: 0.2em;
 			text-align: center;
 		}
@@ -542,7 +542,10 @@ figure {
 }
 @media only screen and (min-width: 768/16*1em) {
 	.main-nav {
-		overflow-x: hidden;
+		white-space: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
 		ul {
 			display: block;
 			text-align: center;
@@ -672,6 +675,21 @@ figure {
 	  content: "";
 	  display: table;
 	}
+}
+
+/* tables */
+table {
+    table-layout: fixed;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #fff;
+}
+th {
+    background: rgba(81,172,45,0.3);
+}
+td {
+    background: rgba(81,172,45,0.1);
 }
 
 
