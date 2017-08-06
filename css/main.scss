@@ -692,6 +692,51 @@ td {
     background: rgba(81,172,45,0.1);
 }
 
+/* program list */
+.program {
+    padding: 0;
+    list-style: none;
+    li {
+        position: relative;
+        margin-bottom: 1em;
+        padding-left: 150/16*1em;
+        b, strong {
+            color: $secondary;
+        }
+    }
+    .time {
+        display: inline-block;
+        font-weight: 600;
+        width: 150/16*1em;
+        position: absolute;
+        left: 0;
+    }
+    .scrollbox {
+        position: relative;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        margin-left: -150/16*1em;
+        @media only screen and (min-width: 1000px) {
+            width: 1000px;
+            margin-left: -(746/2-500/2+150)*1px;
+        }
+    }
+    table {
+        margin-top: 0.5em;
+        width: 1000px;
+    }
+    th, td {
+        font-size: 0.8em;
+    }
+    th:first-child {
+        width: 90/16*1em;
+    }
+    td {
+        vertical-align: top;
+    }
+}
+
 
 /* ==========================================================================
    Helper classes
