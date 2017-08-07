@@ -728,6 +728,13 @@ td {
     }
     th, td {
         font-size: 0.8em;
+        h2, h3, h4, h5, h6, p {
+            margin-top: 0;
+        }
+        p {
+            font-size: 1em;
+            font-weight: normal;
+        }
     }
     th:first-child {
         width: 90/16*1em;
