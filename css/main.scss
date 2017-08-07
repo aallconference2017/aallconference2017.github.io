@@ -703,6 +703,12 @@ td {
         b, strong {
             color: $secondary;
         }
+        div.session {
+            p {
+                font-size: 1em;
+                font-weight: normal;
+            }
+        }
     }
     .time {
         display: inline-block;
@@ -727,7 +733,7 @@ td {
         margin-top: 0.5em;
         width: 1000px;
     }
-    th, td, div.session {
+    th, td {
         font-size: 0.8em;
         h2, h3, h4, h5, h6, p {
             margin-top: 0;
@@ -736,7 +742,7 @@ td {
             font-size: 1em;
             font-weight: normal;
         }
-    }
+    }   
     th:first-child {
         width: 90/16*1em;
     }
