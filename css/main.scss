@@ -720,6 +720,7 @@ td {
         @media only screen and (min-width: 1000px) {
             width: 1000px;
             margin-left: -(746/2-500/2+150)*1px;
+            overflow-x: visible;
         }
     }
     table {
